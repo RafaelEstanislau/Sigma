@@ -4,7 +4,7 @@ The project is a web application that allows users to manage their profiles. Use
 # Important
 In case of any errors in the documentation or questions about the project or how to run it, please contact me via email "rafalevel100@hotmail.com".
 
-As there was no specification regarding how permissions would be assigned to each user, I adopted, by default, the permission to view the form in a readonly state when registering a new user. If you wish to test scenarios with different permissions, in the backend folder, there is a file named "seed.ts". In this file, there is a script to populate the database with users in any desired way. You can find more information in this file
+As there was no specification regarding how permissions would be assigned to each user, I adopted, by default, the permission to view the form in a readonly state when registering a new user. If you wish to test scenarios with different permissions, in the backend folder, there is a file named "seed.ts". In this file, there is a script to populate the database with users in any desired way. You can find more information in the file mentioned above
 
 ## Key Features:
 
@@ -14,8 +14,11 @@ Permission-Based Access: The application implements role-based access control, a
 ## Technology Stack:
 
 Frontend: React
+
 Backend: Node.js (Express)
+
 Database: MongoDB
+
 Authentication: JSON Web Tokens (JWT)
 
 ## Installation
@@ -35,7 +38,8 @@ MONGO_URI = your mongo atlas url connection
 
 ## Usage
 
-On the root folder, run `npm install`, after that, `cd frontend` and use `npm install` again to install the react packages and test project
+On the root folder run `npm install`, after that `cd frontend` and use `npm install` again to install the react packages and test project 
+
 To run the project, run `npm run dev`
 
 ## Testing
