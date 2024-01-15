@@ -13,7 +13,6 @@ const register = async (userData: UserData) => {
       localStorage.setItem("user", JSON.stringify(response.data));
     }
   }
-  console.log("ewrfwefewfewf" + response);
   
   return response.data;
 };

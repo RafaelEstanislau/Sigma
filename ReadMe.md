@@ -32,9 +32,14 @@ Disclaimer: As I'm not sure whether the test can be public or not, it is a priva
 1. Create a `.env` file in the project's root and back end folder.
 2. Add the necessary environment variables to the `.env` file. Refer to example bellow:
 NODE_ENV = string
+
 PORT = your port
+
 JWT_SECRET = random
+
 MONGO_URI = your mongo atlas url connection
+
+There is also an example file on the root folder called `.env.example`
 
 ## Usage
 
