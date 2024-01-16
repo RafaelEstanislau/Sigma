@@ -28,7 +28,7 @@ Disclaimer: As I'm not sure whether the test can be public or not, it is a priva
 3. Install dependencies: `npm install`
 
 ## Configuration
-(Disclaimer: I removed the env files from gitignore while I´m not able to deploy the application so it´s easier just to install the packages and run. The next steps from this configuration section aren´t necessary)
+(Disclaimer: I removed the env files from gitignore while I´m not able to deploy the application so it´s easier just to install the packages and run. The next steps from this configuration section aren´t necessary, just fill the two env files with the values provided on the email)
 1. Create a `.env` file in the project's root and back end folder.
 2. Add the necessary environment variables to the `.env` file. Refer to example bellow:
 NODE_ENV = string
