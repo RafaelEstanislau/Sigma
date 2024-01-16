@@ -9,16 +9,16 @@ const initializeUsersWithPermissions = async () => {
     try {
       await connectDb();
       const salt = await bcrypt.genSalt(10);
-      const hashedPassword = await bcrypt.hash("password5", salt);
+      const hashedPassword = await bcrypt.hash("EditEmailEditName", salt);
       // Users sample data with different permissions
       const usersWithPermissions = [
         {
-          firstName: 'User6',
+          firstName: 'EditEmailEditName',
           lastName: 'One',
-          email: 'user6@example.com',
+          email: 'EditEmailEditName@example.com',
           password: hashedPassword,
           gender: 'M',
-          permissions: ['user:profile:firstname:edit'],
+          permissions: ['user:profile:email:edit', 'user:profile:firstname:edit'],
         },
         
         //Possible permissions:

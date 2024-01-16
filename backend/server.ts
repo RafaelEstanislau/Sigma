@@ -11,9 +11,16 @@ const PORT: number | string = process.env.PORT || 5000;
 
 connectDb();
 const app = express();
+const cors = require("cors");
 
+// middleware
+const corsOptions = {
+    origin: "https://rafa-frontend-lyart.vercel.app/", // frontend URI (ReactJS)
+}
 app.use(express.json());
+
 app.use(express.urlencoded({ extended: false }));
+app.use(cors(corsOptions));
 
 app.get('/', (req, res) => {
   res.send('Hello');
