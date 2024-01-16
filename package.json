@@ -4,6 +4,9 @@
   "description": "MERN app fullstack",
   "main": "server.ts",
   "scripts": {
+    "install-server": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "start-server": "cd backend && npm run server",
     "start": "node backend/server.ts",
     "server": "nodemon backend/server.ts",
     "client": "npm start --prefix frontend",

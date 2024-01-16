@@ -4,7 +4,7 @@ The project is a web application that allows users to manage their profiles. Use
 # Important
 In case of any errors in the documentation or questions about the project or how to run it, please contact me via email "rafalevel100@hotmail.com".
 
-As there was no specification regarding how permissions would be assigned to each user, I adopted, by default, the permission to view the form in a readonly state when registering a new user. If you wish to test scenarios with different permissions, in the backend folder, there is a file named "seed.ts". In this file, there is a script to populate the database with users in any desired way. You can find more information in the file mentioned above
+As there was no specification regarding how permissions would be assigned to each user, I adopted, by default, the permission to view the form in a readonly state when registering a new user. If you wish to test scenarios with different permissions, in the backend folder, there is a file named "seed.ts". In this file, there is a script to populate the database with users in any desired way. You can find more information in the file mentioned above. To run the seed, `cd backend` and `npx ts-node seed.ts`.
 
 ## Key Features:
 
